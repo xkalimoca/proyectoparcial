@@ -1,0 +1,6 @@
+<center><h1><b>PROYECTO PARCIAL</b></h1></center>
+
+## Grupo
+-RICHARD FRANCO
+-KAREN MORALES
+-DANIEL SANTILLAN
