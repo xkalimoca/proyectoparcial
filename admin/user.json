@@ -1,0 +1,165 @@
+{
+    "urbanizaciones" : [
+        {
+            "id_residente": 1,
+            "manzana": 1,
+            "villa": 1,
+            "telefono": "0979981856",
+            "estado": "yellow"
+        },
+        {
+            "id_residente": 2,
+            "manzana": 1,
+            "villa": 2,
+            "telefono": "0979981058",
+            "estado": "green"
+        },
+        {
+            "id_residente": 3,
+            "manzana": 1,
+            "villa": 3,
+            "telefono": "0979981810",
+            "estado": "yellow"
+        },
+        {
+            "id_residente": 4,
+            "manzana": 1,
+            "villa": 4,
+            "telefono": "0979981820",
+            "estado": "green"
+        },
+        {
+            "id_residente": 5,
+            "manzana": 2,
+            "villa": 1,
+            "telefono": "0979925856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 6,
+            "manzana": 2,
+            "villa": 2,
+            "telefono": "0979991856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 7,
+            "manzana": 2,
+            "villa": 3,
+            "telefono": "0975674856",
+            "estado": "grey"
+        },
+        {
+            "id_residente": 8,
+            "manzana": 2,
+            "villa": 4,
+            "telefono": "0979555856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 9,
+            "manzana": 2,
+            "villa": 5,
+            "telefono": "0979922256",
+            "estado": "yellow"
+        },
+        {
+            "id_residente": 10,
+            "manzana": 3,
+            "villa": 1,
+            "telefono": "0979981986",
+            "estado": "yellow"
+        },
+        {
+            "id_residente": 11,
+            "manzana": 3,
+            "villa": 2,
+            "telefono": "0979981866",
+            "estado": "red"
+        },
+        {
+            "id_residente": 12,
+            "manzana": 3,
+            "villa": 3,
+            "telefono": "0989981856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 13,
+            "manzana": 3,
+            "villa": 4,
+            "telefono": "0996981856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 14,
+            "manzana": 4,
+            "villa": 1,
+            "telefono": "0998991856",
+            "estado": "yellow"
+        },
+        {
+            "id_residente": 15,
+            "manzana": 4,
+            "villa": 2,
+            "telefono": "0979981777",
+            "estado": "green"
+        },
+        {
+            "id_residente": 16,
+            "manzana": 4,
+            "villa": 3,
+            "telefono": "0979966656",
+            "estado": "green"
+        },
+        {
+            "id_residente": 17,
+            "manzana": 4,
+            "villa": 4,
+            "telefono": "0979999856",
+            "estado": "grey"
+        },
+        {
+            "id_residente": 18,
+            "manzana": 4,
+            "villa": 5,
+            "telefono": "0976522146",
+            "estado": "green"
+        },
+        {
+            "id_residente": 19,
+            "manzana": 4,
+            "villa": 6,
+            "telefono": "0998981856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 20,
+            "manzana": 5,
+            "villa": 1,
+            "telefono": "0955981856",
+            "estado": "red"
+        },
+        {
+            "id_residente": 21,
+            "manzana": 5,
+            "villa": 2,
+            "telefono": "0965201856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 22,
+            "manzana": 5,
+            "villa": 3,
+            "telefono": "0970081856",
+            "estado": "green"
+        },
+        {
+            "id_residente": 23,
+            "manzana": 5,
+            "villa": 4,
+            "telefono": "0979920856",
+            "estado": "green"
+        }
+    ]    
+}

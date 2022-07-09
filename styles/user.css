@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 150px 1fr;
+    grid-template-areas: "header" "content" "footer";
+    height: 100vh;
+
+}
+
+.item1 {
+
+    text-align: center;
+    font-size: 80px;
+    padding: 30px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
+.formulario {
+    background-color: #d3d3d3;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100vh;
+}
+
+.boton {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+

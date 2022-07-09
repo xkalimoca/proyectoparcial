@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <title>Urbanizacion Toulouse</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="./styles/style3.css"/>
+        <script type="text/javascript" src="./script/script.js"></script>
+    </header>
+    <body onload="evidencia()">
+        <section class = "container">
+            <div class = item header centro>
+                <h1 class = "item1" ></h1>
+            </div>
+            <div class="item content">
+                <form>
+                    <table class = "tabla">
+                        <tr>
+                            <th>
+                                <ul class="formulario">
+                                    <h1 class = "item1" >Transacciones</h1>
+                                    <li class="formulario_filaa">
+                                        <label for="numero">Nro de Documento:</label>
+                                        <input id="numero" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="Banco">Banco:</label>
+                                        <input id="Banco" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="fechaa">Fecha de pago:</label>
+                                        <input type="date" id="fechaa" onchange="fecha_pago()" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa">
+                                        <label for="valoor">Valor a pagar:</label>
+                                        <input id="valoor" value="" />        
+                                    </li>
+                                    <li class="formulario_filaa1">
+                                        <label for="subir">Anexar Documentos:</label>
+                                        <input type="image" id="subir" src="./images/cargar1.png" style="height: 100px;"/>        
+                                    </li>
+                                    <li class="formulario-fila">
+                                        <button type="button" onclick="Guardar()">Guardar</button>
+                                        <button type="button" onclick="cancelarevidencia()">Cancelar</button>                
+                                    </li>
+                                </ul>
+
+                            </th>
+                        </tr>
+         
+                    </table>   
+               
+                </form>                
+            </div> 
+        </section>                
+    </body>
+</html>

@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 150px 1fr;
+    grid-template-areas: "header" "content" "footer";
+    height: 100vh;
+}
+
+
+.item1 {
+    text-align: center;
+    font-size: 80px;
+    padding: 30px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table th{
+    width: 50rem;
+    height: 30rem;
+    
+}
+
+.tabla{    
+    margin: 2px;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.tr, th{
+    border: 1px solid black;
+}
+
+.mz1{
+    position: relative;
+    float: left;
+    left: 45rem;
+    top: 6rem;
+    display: block;
+}
+
+.mz2{
+    position: relative;
+    display: flex;
+    float: left;
+    top: 452px;
+    left: 175px;
+}
+
+.mz3{
+    position: relative;
+    float: left;
+    top: 96px;
+    right: 494px;
+    display: block;
+
+}
+
+.mz4{
+    position: relative;
+    display: flex;
+    float: left;
+    bottom: 310px;
+    left: 160px;
+    margin: 0px;
+}
+
+.mz5{
+    position: relative;
+    display: flex;
+    float: left;
+    left: 300px;
+    bottom: 265px;
+    margin: 0px;
+}
+
+.parque{
+    position: relative;
+    display: flex;
+    float: left;
+    left: -313px;
+    bottom: 123px;
+}
+
+.garita{
+    position: relative;
+    float: left;
+    right: 200px;
+    top: 56px;
+}
+
+
+.r1{
+    font-size: 65px;
+    color: #2e3192;
+    border: 1px solid black;
+    width: 80px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.r2{
+    font-size: 65px;
+    color: #2e3192;
+    border: 1px solid black;
+    width: 80px;
+    text-decoration: none;
+}
+
+.r3{
+    font-size: 65px;
+    color: #2e3192;
+    border: 1px solid black;
+    width: 80px;
+    display: block;
+    text-decoration: none;
+}
+
+.r4{
+    font-size: 65px;
+    color: #2e3192;
+    border: 1px solid black;
+    width: 80px;
+    text-decoration: none;
+}
+
+.r5{
+    font-size: 65px;
+    text-align: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 140px;
+    
+}
+
+.r6{
+    font-size: 65px;
+    color: #2e3192;
+    border: 1px solid black;
+    width: 80px;
+    text-decoration: none;
+}
+
+.r8{
+    background-color: #006837;
+    border: 1px solid black;
+    width: 85px;
+    height: 42px;
+    text-decoration: none;
+    
+    
+}
+
+
+
+

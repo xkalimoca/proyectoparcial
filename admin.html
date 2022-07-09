@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <title>Urbanizacion Toulouse</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="./styles/style2.css"/>
+        <script type="text/javascript" src="./script/script.js"></script>
+    </header>
+    <body onload="admin()">
+        <section class = "container">
+            <div class = item header centro>
+                <h1 class = "item1" >RESIDENTE DE LA URBANIZACION</h1>
+            </div>
+            <div class="item content">
+                <ul class="formulario">
+                    <li class="formulario_filaa">
+                        <label for="nom">Nombre:</label><p id="nomb"></p>          
+                    </li>
+                    <li class="formulario_filaa">
+                        <label for="fecha de inicio">Fecha de inicio:</label><p id="fechadeinicio1"></p>         
+                    </li>
+                </ul> 
+                <button class="btn" onclick="retroceder()"style="float: left;;">Atras</button>
+                <button class="btn" onclick="adminview()"style="float: right;;">Vista Administrador</button> 
+                <table class = "tabla">
+                    <tr>
+                        <th>Año</th>
+                        <th>Mes</th>
+                        <th>Fecha de pago</th>
+                        <th>Valor</th>
+                        <th>Estado</th>
+                        <th>Verificar</th>
+                        <th >Evidencia</th>
+                    </tr>
+                    <tbody id="table1">
+                    </tbody>         
+                </table> 
+            </div>  
+        </section>         
+    </body>
+</html>
